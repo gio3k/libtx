@@ -12,6 +12,7 @@ internal static class Handlers
 	[Event.Hotload]
 	public static void ReloadKnownHandlers()
 	{
+		KnownHandlers.Clear();
 		foreach ( var (method, attribute) in TypeLibrary.GetMethodsWithAttribute<HandlerAttribute>() )
 		{
 			if ( method.ReturnType != typeof(ResponseCode) &&
