@@ -1,0 +1,23 @@
+{
+  "Title": "LibTx",
+  "Type": "library",
+  "Org": "gio",
+  "Ident": "libtx",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": ".",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "ProjectTemplate": null,
+    "CsProjName": "",
+    "Summary": "nice little library for better client -\u003E server communication",
+    "Description": "",
+    "Public": true,
+    "ReplaceTags": "library networking communication server"
+  }
+}
